@@ -168,7 +168,6 @@ type=SYSCALL msg=audit(1732534459.021:387): arch=c000003e syscall=257 success=ye
 
 * Étape 5 : Sécurisation avec Firewalld
 
-````
 
 Configurer un pare-feu pour SSH et HTTP/HTTPS uniquement :
 
