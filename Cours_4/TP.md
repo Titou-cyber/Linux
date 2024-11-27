@@ -197,7 +197,7 @@ sudo firewall-cmd --reload
 Restreindre SSH à un sous-réseau spécifique :
 
 ````
-[root@localhost ~]# sudo firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="192.168.1.0/24" service name="ssh" accept'
+[root@localhost ~]# sudo firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="192.168.56.0/24" service name="ssh" accept'
 sudo firewall-cmd --permanent --add-rich-rule='rule family="ipv4" service name="ssh" reject'
 sudo firewall-cmd --reload
 ````
