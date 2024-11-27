@@ -190,7 +190,7 @@ sudo firewall-cmd --reload
 Bloquer des IP suspectes :
 
 ````
-sudo firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="192.168.56.1" reject'
+sudo firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="?" reject'
 sudo firewall-cmd --reload
 ````
 
